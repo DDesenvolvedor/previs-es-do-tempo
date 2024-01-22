@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    /* determina como os elementos vão aparcer*/
+    justify-content: center;
+    /*  */
+    align-items: center;
+    /* centralizar*/
+    height: 100vh;
+    /* altura/ vh altura */
+    width: 100vw;
+    /* largura / vw largura*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior {
+    background-color: rgb(0, 0, 0);
+    /*troca a cor do fundo*/
+    width: 95%;
+    /*largura*/
+    max-width: 420px;
+    opacity: 0.8;
+    /* transparencia do elemento */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    /* borda do elemento*/
+    outline: none;
+    /* borda de quando seleciona o elemento*/
+    padding: 10px;
+    /*espasamento interno */
+    border-radius: 24px;
+    /* arredondar bordas do elemento*/
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+}
+
+
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    margin-top: 20px;
+    display: flex;
+align-items: center
+
+}
+
+.lupa {
+    height: 25px;
+    
+
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+    /* tamanho do texto */
+
+}
+
+.temp{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.descricao {
+margin-left: 20px;
+    color: white;
+    text-transform: capitalize; /*deixa a primeira letra maiuscula*/
+}
+
+.umidade {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: white;
+}
